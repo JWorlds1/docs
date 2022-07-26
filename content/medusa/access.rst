@@ -127,19 +127,19 @@ There are multiple methods of connecting to Medusa graphically.
     Note the port number: "5911". It should be 5900 + the ``number`` we
     noted above. Make sure that it is *your* number.
 
-.. figure:: /docs/medusa/images/username_save1.png
+.. figure:: /docs/content/images/username_save1.png
      :name: username_save1.png
      :alt:  username_save1.png
      :align: center
      :width: 100%
      
-.. figure:: /docs/medusa/images/Port_number.png
+.. figure:: /docs/content//medusa/images/Port_number.png
      :name: Port_number.png
      :alt:  Port_number.png
      :align: center
      :width: 100%
      
-.. figure:: /docs/medusa/images/vnc_connection.png
+.. figure:: /docs/content//medusa/images/vnc_connection.png
      :name: vnc_connection.png
      :alt:  vnc_connection.png
      :align: center
