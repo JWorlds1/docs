@@ -145,10 +145,34 @@ There are multiple methods of connecting to Medusa graphically.
      :align: center
      :width: 100%
      
+.. figure:: /docs/content/images/images_win_putty_vnc/youmadeit.png
+    :name: youmadeit.png
+    :alt:  youmadeit.png
+    :align: center
+    :width: 100%
 
-  .. class:: todo
+you made it!
+
+Helpful Commands
+*********
+
+In case of problems from too many started vnc servers
+
+.. code::
+
+    vncserver -list
+
+
+kill the process from to many started vnc server
+
+.. code::
+
+    vncserver -kill :9
+    
+ 
+.. class:: todo
 
     **TODO**: Move most of this VNC info to ``tools/VNC``. Or avoid the entire
     mess by migrating to HTTP-based VNC (like Guacamole).
 
-  .. _TightVNC Java Viewer: http://www.tightvnc.com/download.php
+ .. _TightVNC Java Viewer: http://www.tightvnc.com/download.php
