@@ -18,10 +18,10 @@ Connecting is as simple as running the following in your terminal:
 
   **NOTE:** Users with unstable internet connections will likely find
   `tmux </docs/tools/tmux/>`_ to be a helpful tool.
-  
+
 VPN
 *********
-You need a vpn connection to go on the medusa server:
+You need a VPN connection to go on the medusa server.
 https://www.urz.ovgu.de/urz/en/vpn-path-204,616.html
 
 Graphical
@@ -127,25 +127,25 @@ There are multiple methods of connecting to Medusa graphically.
     Note the port number: "5911". It should be 5900 + the ``number`` we
     noted above. Make sure that it is *your* number.
 
-.. figure:: /docs/content/medusa/images/finalone.png
-     :name: finalone.png
-     :alt:  finalone.png
+.. figure:: /docs/medusa/images/images_win_putty_vnc/username_save1.png
+     :name: username_save1.png
+     :alt:  username_save1.png
      :align: center
      :width: 100%
-     
-.. figure:: /docs/content/medusa/images/finaltwo.png
-     :name: finaltwo.png
-     :alt:  finaltwo.png
+
+.. figure:: /docs/medusa/images/images_win_putty_vnc/Port_number.png
+     :name: Port_number.png
+     :alt:  Port_number.png
      :align: center
      :width: 100%
-     
-.. figure:: /docs/medusa/images/vnc_connection.png
+
+.. figure:: /docs/medusa/images/images_win_putty_vnc/vnc_connection.png
      :name: vnc_connection.png
      :alt:  vnc_connection.png
      :align: center
      :width: 100%
-     
-.. figure:: /docs/medusa/images/youmadeit.png
+
+.. figure:: /docs/medusa/images/images_win_putty_vnc/youmadeit.png
     :name: youmadeit.png
     :alt:  youmadeit.png
     :align: center
@@ -153,15 +153,6 @@ There are multiple methods of connecting to Medusa graphically.
 
 you made it!
 
-|pic1| any text |pic2|
-
-.. |pic1| image:: /docs/medusa/images/images_win_putty_vnc/username_save1.png
-   :width: 45%
-
-.. |pic2| image:: /docs/medusa/images/images_win_putty_vnc/Port_number.png
-   :width: 45%
-   
-   
 Helpful Commands
 *********
 
@@ -177,11 +168,3 @@ kill the process from to many started vnc server
 .. code::
 
     vncserver -kill :9
-    
- 
-.. class:: todo
-
-    **TODO**: Move most of this VNC info to ``tools/VNC``. Or avoid the entire
-    mess by migrating to HTTP-based VNC (like Guacamole).
-
- .. _TightVNC Java Viewer: http://www.tightvnc.com/download.php
